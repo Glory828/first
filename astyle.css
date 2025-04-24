@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    color: #333;
+    text-align: center;
+}
+
+/* Navbar */
+nav {
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+/* Header Section */
+.about-header {
+    background-image: url('skincare-banner.jpg'); /* Add your banner image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 60px 20px;
+}
+
+.about-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.about-header p {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+/* About Content */
+.about-content {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: left;
+}
+
+.about-content h2 {
+    font-size: 1.8em;
+    color: #007bff;
+}
+
+.about-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-content ul li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+/* Footer */
+footer {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}

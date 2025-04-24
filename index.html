@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>twak</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">Twak</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Our product</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="cart.html">View Cart</a></li>
+        <li><a href="register.html" id="login-link">Log In</a></li>
+      </ul>
+    </nav>
+
+    <div id="user-info">
+      <p id="welcome-message"></p>
+      <button id="logout-button" onclick="logout()">Logout</button>
+    </div>
+
+    <section>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="lipstick.jpg" alt="Product 1" />
+          <h3>Lipstick</h3>
+          <p class="price">Rs:299</p>
+          <button class="action-button" onclick="addToCart('Lipstick', 299)">
+            Add to Cart
+          </button>
+          <button class="buy-button">Buy Now</button>
+        </div>
+        <div class="product-card">
+          <img src="shampoo.jpg" alt="Product 2" />
+          <h3>Shampoo</h3>
+          <p class="price">Rs:195</p>
+          <button class="action-button" onclick="addToCart('Shampoo', 195)">
+            Add to Cart
+          </button>
+          <button class="buy-button">Buy Now</button>
+        </div>
+        <div class="product-card">
+          <img src="moist.jpg" alt="Product 3" />
+          <h3>Moistorizer</h3>
+          <p class="price">Rs:127</p>
+          <button class="action-button" onclick="addToCart('Moisturizer', 127)">
+            Add to Cart
+          </button>
+          <button class="buy-button">Buy Now</button>
+        </div>
+        <div class="product-card">
+          <img src="facewash.jpg" alt="Product 4" />
+          <h3>Facewash</h3>
+          <p class="price">Rs:249</p>
+          <button class="action-button" onclick="addToCart('Facewash', 249)">
+            Add to Cart
+          </button>
+          <button class="buy-button">Buy Now</button>
+        </div>
+        <div class="product-card">
+          <img src="serum.jpg" alt="Product 5" />
+          <h3>Serum</h3>
+          <p class="price">Rs:599</p>
+          <button class="action-button" onclick="addToCart('Serum', 599)">
+            Add to Cart
+          </button>
+          <button class="buy-button">Buy Now</button>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
